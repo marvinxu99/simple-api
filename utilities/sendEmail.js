@@ -3,8 +3,8 @@
 const aws = require("aws-sdk");
 
 // use AWS global variables
-aws.config.accessKeyId = 'xxx'; 
-aws.config.secretAccessKey = 'xxxx';
+aws.config.accessKeyId = 'xxxx'; 
+aws.config.secretAccessKey = 'xxx';
 aws.config.region = "us-west-2";   // US West (Oregon)
 
 // Create a registerEmail function
